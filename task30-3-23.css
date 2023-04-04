@@ -1,0 +1,366 @@
+*{
+    margin: 0rem;
+    padding: 0rem; 
+    
+}
+body {
+    overflow-x: hidden; 
+  }
+
+#Wholenavbar{
+display: flex;
+justify-content: space-around;
+margin: 5px 10px;
+
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: right;
+    justify-items: right;
+}
+#navbar ul li{
+    display: flex;
+    display: inline;
+    justify-content: right;
+    justify-items: right;
+    padding-left: 1rem;
+    color: white;
+}
+
+.imagee{
+
+height: 3rem;
+display: none;
+
+}
+.topdiv{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#background1{
+
+    background-image: url(Bg.png);
+    /* display: none; */
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.alignment{
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#logoo{
+
+     display: flex;
+     justify-content: center;
+     margin-top: 1rem;
+    }
+
+#buttons{
+
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 3rem;
+     padding-bottom: 7.7rem;
+     /* display: none; */
+    }
+
+ 
+
+    #order{
+        padding-left: 2rem;
+        }
+
+        #background2{
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            align-items: center;
+        }
+         
+
+        
+        .logooo{
+            display: flex;
+            justify-content: center;
+        }
+        #cook{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #thirdscreen{
+
+            background-image: url(bg5.png);
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            padding-top: 8rem;
+            padding-right: 15rem;
+            padding-bottom: 10rem;
+        }
+
+        #card{ 
+            display: flex;
+            flex-direction: column;
+            height: 23rem;
+           width: 25rem;            
+          
+           background-color: rgba(2, 2, 2, 0.4);
+           padding-top: 1rem;
+           
+          
+          
+        }
+
+         #dividernew{
+            display: flex;
+           justify-content: center;
+         }
+
+          #text1{
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+          }
+           
+
+          #text2{
+            display: flex;
+            text-align: center;
+            margin-top: 1rem; 
+        }
+
+        #cardpics{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem;
+            justify-content: space-around;
+            
+            }
+          
+         
+
+            
+             
+               #mp{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-between;
+                margin-top: 1rem;
+               }
+                
+               #f{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-between;   
+                margin-top: 1rem;
+            }
+
+               #gb{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-between;   
+                margin-top: 1rem;
+            }
+                
+
+
+            #upperleftorder{
+                display: flex;
+                flex-direction: column;
+                margin-top: 1rem;
+                
+            }
+
+            
+             
+
+
+            
+            #mpp{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-between;
+                margin-top: 1rem;    
+            }
+                
+               #ff{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-between;
+                margin-top: 1rem;   
+            }
+
+               #gbb{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 1rem; 
+            }
+
+               #fourthscreen{
+                display: flex;
+                flex-direction: row;
+
+                justify-content: space-around;
+                margin: 0rem;
+                padding: 0rem;
+               }
+
+               #upperrightorder{
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            #mmpp{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-between;
+                margin-top: 1rem;    
+            }
+                
+               #fff{
+                display: flex;
+                flex-direction: row;
+                text-align: center;
+                justify-content: space-between;
+                margin-top: 1rem;   
+            }
+
+               #ggbb{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 1rem; 
+            }
+
+           .lower{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 3rem;
+            
+           }
+
+           #fifthbackground{
+            display: flex;
+            justify-content: center;
+            margin: 0rem;
+            padding: 0rem;
+           }
+           
+           #cardfifth{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 25rem;
+            width: 40rem;
+            margin-top: 8rem;
+            margin-bottom: 8rem;
+            border-style: solid;
+            background-color: rgba(2, 2, 2, 0.8);
+        }
+        #secondlast{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        #picturess{
+            display: flex;
+            justify-content: space-between;
+           margin-top: 4rem;
+           margin-bottom: 3rem;
+         }
+ #miniform{
+   
+    justify-content: center; 
+    flex-direction: row;
+    text-align: center;
+    margin-top: 4rem;
+
+ }
+ #mimage{
+    display: flex;
+    justify-content: center;
+ }
+ 
+#mform{
+display: flex;
+justify-content: space-between;
+margin-top: 1rem;
+}
+
+#inp1{
+    display: flex;
+    flex-direction: column;
+}
+
+#inp2{
+    display: flex;
+    flex-direction: column;
+}
+#mform1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    }
+
+    #button{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        
+    }
+
+    #piccc{
+        
+        margin-left: 2rem;
+    }
+
+    #Lastscreen{
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #first{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    #second{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #third{
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
